@@ -34,4 +34,8 @@
 .ski-diamond { top:-3px; color: #000;}
 .ski-diamond:before { content: "\0025C6"; }
 
+.ski-2diamond { top:-3px; color: #000;}
+.ski-2diamond:before { content: "\002666\002666"; }
+
+
 .ski-test:before { content: "AaA"; }
