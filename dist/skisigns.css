@@ -1,0 +1,49 @@
+/*
+ *  skisigns - v0.1.0
+ *  
+ *  http://github.com/audreyr/skisigns
+ *
+ *  Made by Audrey Roy Greenfeld
+ *  Under MIT License
+ */
+/**
+ * Styles for skisigns catchall baseclass
+ */
+
+.ski {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/**
+ * Description of another style goes here
+ */
+.big { font-size: 36px; }
+
+/**
+ * Symbols
+ */
+
+.ski-circle { top:-2px; color: #5DC419; }
+.ski-circle:before { content: "\0025CF"; }
+
+.ski-square { top:-4px; color: #5DA4F1; }
+.ski-square:before { content: "\0025A0"; }
+
+.ski-diamond { top:-3px; color: #000;}
+.ski-diamond:before { content: "\0025C6"; }
+
+.ski-2diamond { top:-3px; color: #000;}
+.ski-2diamond:before { content: "\002666\002666"; }
+
+
+.ski-test:before { content: "AaA"; }
