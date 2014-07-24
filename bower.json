@@ -1,0 +1,19 @@
+{
+  "name": "skisigns",
+  "version": "0.1.0",
+  "main": [
+    "dist/skisigns.css",
+  ],
+  "ignore": [
+    ".DS_Store",
+    ".git",
+    ".gitignore",
+    ".npmignore",
+    ".travis.yml",
+    "component.json",
+    "node_modules",
+    "package.json",
+    "src",
+    "demo"
+  ]
+}

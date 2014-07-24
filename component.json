@@ -1,0 +1,16 @@
+{
+  "name": "skisigns",
+  "repo": "audreyr/skisigns",
+  "description": "",
+  "version": "0.1.0",
+  "keywords": [
+      "html",
+      "css"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "dist/skisigns.css"
+  ]
+}
